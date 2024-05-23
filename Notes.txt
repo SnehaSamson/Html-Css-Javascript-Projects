@@ -80,6 +80,15 @@ inline, block and inline-block element :
 *(Asterisk) : It is the universal selector
 
 flexbox : It will work on the x and y axis. It will work only when the parent tag is available.
+
 whenever flex direction is row, X is main axis and Y is cross axis.
 whenever flex direction is column, Y is main axis and X is cross axis.
+
+justify-content : Always works with the main axis
+                 suppose the direction is row then the justify -content will work for x
+                 suppose the direction is column then the justify-content will work for y
+
+align-item : Always works with the cross axis.
+             suppose the direction is column then the align-items will work or x
+             suppose the direction is row then the align-items will work for y.
 
