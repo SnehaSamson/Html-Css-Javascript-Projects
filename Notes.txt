@@ -1,0 +1,44 @@
+- Every computer language is considered as coding language nothing but programming language but Html is a language 
+  which delas with the content so it is called Markup language.
+
+
+HTML - HTML is the standard markup language for creating Web pages. 
+       The full form of html is Hyper Text Markup Language.
+       The links which is present in the website are called hyperlink and this link will connect to many other websites.
+       Hence it is Hyper Text Markup lang.
+       Html is used to create webpage and put content
+
+CSS - Cascading style sheet.
+      CSS is used to style the webpage and content of the page.
+      arrange, align, sizing and colouring.
+
+
+How we use HTML to create webpage.
+- The basic setup of html is called as boiler plate.
+
+About basic tags :
+
+Tag : is used to create a content 
+
+1. <html> -  This tag will tell browser that this is html file document.
+             This is the root element of the web page.
+2. <head> - head tag includes title tag.
+3. <body> - body tag will contain all other tags which is required to write the content of the browser.
+4. <h1> - h1 is tag which will make the text big and bold.
+5. <pre> - pre-formatted tag is used to write the code exactly it appears how you write.
+6. <link> - link tag is used to link the external files to the html files.
+
+
+Attributes : Attributes will enhance the feature of the tag.
+
+Day 2 Bootcamp :
+
+Forms : The way of giving data to the website.
+        By using form website will collect the data from the users.
+
+  <form> : This tag is used to keep all the input field together.
+  <input> : it is a self closing tag and by default the type is text.
+
+
+      
+
