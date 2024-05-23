@@ -1,0 +1,43 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.parent
+{
+    width: 100%;
+    height: 800px;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.item
+{
+    width: 20%;
+    height: 150px;
+    margin: 20px;
+}
+
+.first-item 
+{
+    background-color: red;
+}
+
+.second-item
+{
+    background-color: green;
+}
+
+.third-item
+{
+    background-color: purple;
+}
+
+.fourth-item
+{
+    background-color: blue;
+}

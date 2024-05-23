@@ -40,5 +40,46 @@ Forms : The way of giving data to the website.
   <input> : it is a self closing tag and by default the type is text.
 
 
-      
+CSS : Cascading Style sheet.
+There are three types of css we can implement in html
+1. Inline css : This CSS is applied for particular tag 
+2. Internal CSS : 
+3. External CSS    
+
+Selectors : By using selectors we can give the css styles Selectors can be by using  tag name , class name, And also by giving id name
+In terms of selectors ID has the highest priority.
+Then the class has the next priority and then the priority is given to the tag and also the styles given to the tag.
+- Suppose if you give the same style in id and class the tag will take the id property not the class one.
+- Suppose the same styles is given in id, class and tag then the highest priority is given to the id.
+
+- Classes are so flexible and we can give it to many tags.
+- Id is unique and can be given only to one tag.
+
+Drawbacks of internal CSS :
+- If you are working with big projects then writting CSS will be big challenge.
+- And it will make the website size larger.
+- And you will end up with more confusion and will be very difficult to maintain the code.
+
+External CSS :
+- This type of CSS is very popular.
+- By using the external CSS then maintaining the code will be easy.
+- Confusion will be very less.
+- By using link tag we can link the external CSS to the webpage.
+
+Box Model : 
+Box model can be created using following tags : div, section, nav, header,main,footer.
+
+Padding : It is a fake space between the content area and the border of the box.
+
+margin : It is a extra fake size added to the top of the content.
+
+percentage unit :
+flexboxing :
+inline, block and inline-block element :
+
+*(Asterisk) : It is the universal selector
+
+flexbox : It will work on the x and y axis. It will work only when the parent tag is available.
+whenever flex direction is row, X is main axis and Y is cross axis.
+whenever flex direction is column, Y is main axis and X is cross axis.
 
