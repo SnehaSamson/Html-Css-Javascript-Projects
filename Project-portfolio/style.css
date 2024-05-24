@@ -1,0 +1,201 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header
+{
+    width: 100%;
+    background-color: rgb(218, 204, 204);
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    
+}
+.logo
+{
+    width: 10%;
+    height: 70px;
+    /* background-color: yellow; */
+    /* color: white; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+
+.nav
+{
+    width: 30%;
+    height: 70px;
+    /* background-color: blue; */
+   
+}
+.nav-links
+{
+    /* background-color: red; */
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    /* color: white; */
+
+}
+
+.banner
+{
+    width: 100%;
+    height: 700px;
+    /* background-color: red; */
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    
+    background-color: rgb(218, 204, 204);
+}
+
+.details
+{
+    width: 60%;
+    padding: 20px;
+    background-color: white;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 15px;
+    
+    background-color: rgb(218, 204, 204);
+}
+
+.t1
+{
+    font-size: 60px;
+    color: rgb(75, 24, 24);
+}
+.t2
+{
+    /* font-family: "Montserrat", sans-serif; */
+    font-size: 70px;
+    font-weight: 900;
+    color:  rgb(62, 62, 241);
+}
+.desc
+{
+    font-size: 20px;
+    color: rgb(24, 1, 1);
+}
+
+.cta
+{
+    padding: 15px 40px;
+    font-size: 20px;
+    margin-top: 35px;
+    background-color: rgb(62, 62, 241) ;
+    color: white;
+    border: 2px solid  rgb(62, 62, 241);
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.cta:hover{
+    background-color: transparent;
+    color: rgb(62, 62, 241) ;
+
+}
+
+.person
+{
+    /* width: 30%; */
+    /* height: 400px; */
+    background-color: rgb(206, 192, 192);
+    border-radius: 30px;
+    /* align-self: flex-end; */
+    padding: 30px;
+    
+}
+.person-img
+{
+    border-radius: 30px;
+    height: 400px;
+
+}
+
+/* services Css  */
+
+.services
+{
+    width: 100%;
+    padding: 30px 5%;
+    /* background-color: red; */
+}
+
+.section-title
+{
+    font-family: "Montserrat", sans-serif;  
+    font-size: 50px;
+    font-weight: 200;
+}
+.section-child
+{
+    display: flex;
+    width: 100%;
+    padding: 30px 0px;
+    /* background-color: white; */
+    margin-top: 30px;
+    /* justify-content: space-between;
+    box-sizing: border-box; */
+}
+
+.service
+{
+    width: 20%;
+    height: 400px;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    font-family: "Montserrat", sans-serif;  
+    row-gap: 15px;
+    box-shadow: 0 0 2px grey;
+    border-radius: 10px;
+}
+
+.icon
+{
+    padding: 50px;
+    font-size: 70px;
+    align-self: center;
+    color:grey;
+}
+
+.service-btn
+{
+    padding: 12px 25px;
+    background-color:  rgb(62, 62, 241);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.service-text
+{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
